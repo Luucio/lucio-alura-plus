@@ -1,0 +1,26 @@
+:root{
+    --cor-background:#00030C;
+    --cor-fonte-tituloPrincipal:#FFFFFF;
+    --cor-fonte-principal:#F9F9F9;
+    --cor-fonte-descrição:#C0C0C0;
+    --cor-fonte-botão:#FFFFFF;
+    --cor-botãoAzul:#167BF7;
+}
+
+*{
+ margin: 0;
+ padding: 0;       
+}
+
+body{
+    background-color: var(--cor-background);
+}
+
+.conteiner{
+    height: 100vh;
+}
+
+.section1{
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+}
