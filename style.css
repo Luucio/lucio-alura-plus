@@ -22,17 +22,19 @@ body{
 }
 
 .conteiner{
-    height: 100vh;
+    height: 50rem;
 }
 
 .section1{
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;
+    background-size: contain;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
     text-align: center;
     width: auto;
+    height: 100vh;
 }
 
 .section1__conteudoEsquerdo__tituloPrincipal{
@@ -77,12 +79,18 @@ border: 2px solid var(--cor-fonte-principal);
     display: flex;
     box-sizing: border-box;
     align-items: center;
+    justify-content: center;
     margin: 0 120px 0 165px;
     gap: 69px;
+    height: auto;
 }
 
 .section2__descricao{
     color: var(--cor-fonte-principal);
+}
+
+.section3{
+    justify-content: center;
 }
 
 .section3__conteudoEsquerdo__botao{
@@ -120,6 +128,8 @@ border: 2px solid var(--cor-fonte-principal);
     margin: 0 120px 0 141px;
     align-items: center;
     gap: 44px;
+    justify-content: center;
+    
 }
 
 .section4__imagem{
@@ -141,7 +151,8 @@ border: 2px solid var(--cor-fonte-principal);
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 0;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 .section5__descricao{
@@ -175,7 +186,7 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 120px 99.1px 120px;
+    margin: 0 120px 10px 120px;
 }
 
 .footer__lista{
