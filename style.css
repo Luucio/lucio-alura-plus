@@ -197,6 +197,8 @@ footer{
 }
 .footer__lista__conteudo__texto{
     color: var(--cor-fonte-principal);
+    text-decoration: none;
+    width: auto;
 }
 
 .footer__descricao{
@@ -305,4 +307,47 @@ footer{
     }
 }
 
+@media (min-width: 721px) and (max-width: 992px){
+    .section1{
+        display: flex;
+        background: none;
+    }
 
+    .section2__imagem{
+        width: 22rem;
+    }
+
+    .section4{
+        display: flex;
+        gap: 100px;
+    }
+
+    .section4__imagem{
+       width: 25rem;
+    }
+
+    .section5__titulo{
+        width: 35rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px){
+    .section5__titulo{
+        width: 35rem;
+        text-align: center;
+    }
+
+    .section5__descricao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1300px){
+    .section1{
+        background: none;
+        display: flex;
+    }
+}
